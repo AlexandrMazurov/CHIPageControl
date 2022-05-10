@@ -1,5 +1,5 @@
 //
-//  CHIValidateblePageControl.swift
+//  CHIValidatablePageControl.swift
 //  CHIPageControl
 //
 //  Created by Aliaksandr Mazurau on 10.05.22.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class CHIValidateblePageControl: CHIBasePageControl {
+open class CHIValidatablePageControl: CHIBasePageControl {
     public struct Images {
         let valid: UIImage
         let invalid: UIImage
@@ -109,7 +109,7 @@ open class CHIValidateblePageControl: CHIBasePageControl {
     }
 }
 
-public extension CHIValidateblePageControl {
+public extension CHIValidatablePageControl {
     func updateValidPages(validPageIndexes: [Int]) {
         self.validPageIndexes = validPageIndexes
         inactive.enumerated().forEach { index, imageView in
@@ -120,7 +120,7 @@ public extension CHIValidateblePageControl {
     }
 }
 
-private extension CHIValidateblePageControl {
+private extension CHIValidatablePageControl {
     func updateActiveImage() {
         let activeImage = validPageIndexes.contains(currentPage) ? images.valid : images.invalid
         active.image = activeImage.withRenderingMode(.alwaysTemplate)

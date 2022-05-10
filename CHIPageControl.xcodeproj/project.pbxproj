@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F08C069282A8958004D3CB3 /* CHIValidateblePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08C068282A8958004D3CB3 /* CHIValidateblePageControl.swift */; };
+		1F08C069282A8958004D3CB3 /* CHIValidatablePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08C068282A8958004D3CB3 /* CHIValidatablePageControl.swift */; };
 		4313A7911E7A831E0015A568 /* CHIPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4313A78F1E7A831E0015A568 /* CHIPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4313A7E01E7A92320015A568 /* CHIPageControlAji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4313A7D41E7A92320015A568 /* CHIPageControlAji.swift */; };
 		4313A7E11E7A92320015A568 /* CHIPageControlAleppo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4313A7D51E7A92320015A568 /* CHIPageControlAleppo.swift */; };
@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F08C068282A8958004D3CB3 /* CHIValidateblePageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIValidateblePageControl.swift; sourceTree = "<group>"; };
+		1F08C068282A8958004D3CB3 /* CHIValidatablePageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIValidatablePageControl.swift; sourceTree = "<group>"; };
 		4313A78C1E7A831E0015A568 /* CHIPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHIPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4313A78F1E7A831E0015A568 /* CHIPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHIPageControl.h; sourceTree = "<group>"; };
 		4313A7901E7A831E0015A568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 				4313A7D91E7A92320015A568 /* CHIPageControlJaloro.swift */,
 				4313A7DA1E7A92320015A568 /* CHIPageControlPaprika.swift */,
 				4313A7DB1E7A92320015A568 /* CHIPageControlPuya.swift */,
-				1F08C068282A8958004D3CB3 /* CHIValidateblePageControl.swift */,
+				1F08C068282A8958004D3CB3 /* CHIValidatablePageControl.swift */,
 				4313A7DC1E7A92320015A568 /* Core */,
 				4313A7901E7A831E0015A568 /* Info.plist */,
 			);
@@ -215,7 +215,7 @@
 				4313A7E11E7A92320015A568 /* CHIPageControlAleppo.swift in Sources */,
 				4313A7E51E7A92320015A568 /* CHIPageControlJaloro.swift in Sources */,
 				4313A7E91E7A92320015A568 /* CHILayer.swift in Sources */,
-				1F08C069282A8958004D3CB3 /* CHIValidateblePageControl.swift in Sources */,
+				1F08C069282A8958004D3CB3 /* CHIValidatablePageControl.swift in Sources */,
 				4313A7E01E7A92320015A568 /* CHIPageControlAji.swift in Sources */,
 				4313A7EA1E7A92320015A568 /* CHIPageControllable.swift in Sources */,
 			);
